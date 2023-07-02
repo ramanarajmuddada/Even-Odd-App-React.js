@@ -1,0 +1,57 @@
+/* Write your CSS here */
+
+.bg-main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+  .bg-main-container {
+    align-items: center;
+    width: 80%;
+  }
+}
+
+.card-container {
+  background: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  text-align: center;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.title {
+  font-family: 'Roboto';
+  font-size: 35px;
+  font-weight: bold;
+  color: #0f172a;
+  margin-bottom: 30px;
+}
+
+.pera {
+  font-family: 'Roboto';
+  font-size: 23px;
+  color: #334155;
+  margin-bottom: 22px;
+}
+
+.btn-sty {
+  height: 40px;
+  width: 140px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  border-radius: 10px;
+  border: none;
+  color: #0f172a;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.bottom-pera {
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: #334155;
+  font-weight: 600;
+}
